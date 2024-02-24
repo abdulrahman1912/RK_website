@@ -6,10 +6,10 @@ export const HeroSection = () => {
   return (
     <>
       <div className={Style.herocontainer}>
-        <video src={Bgvideo} autoPlay muted loop  />
+        <video src={Bgvideo} autoPlay muted loop />
         <div className={Style.bgoverlay}></div>
         <div className={Style.herotextcontainer}>
-        <h1>Welcome  <br/>To <br/>Raayin'Kayadede <br/> Nigeria Limited </h1>
+          <h1>Welcome  <br />To <br />Raayin'Kayadede <br /> Nigeria Limited </h1>
         </div>
       </div>
     </>
