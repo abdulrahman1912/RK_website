@@ -1,23 +1,20 @@
 section{
     width: 100%;
-    /* height: 100vh; */
     justify-content: center;
     align-items: center;
     align-content: center;
     display: flex;
-    /* margin-bottom: 2.2em; */
     flex-wrap: wrap;
 }
 
 .cardcontainer{
-    margin: 1.3em 4em;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
-    /* gap:50px; */
+    margin-top: 8%;
 }
 
 
@@ -27,8 +24,6 @@ section{
     width: 50%;
     display: flex;
     flex-direction: row;
-    /* gap: 50px; */
-    /* background-color: blue; */
 }
 
 .square{
@@ -36,7 +31,6 @@ section{
     width: 700px;
     background-color: #D12A1E;
     position: relative;
-    
   }
 
 .cardimg{
@@ -53,21 +47,18 @@ section{
     width: 50%;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     align-content: center;
-    padding-top: 1.5em;
-    
 }
 
 .card2 h1{
-font-size: 5em;
+font-size: 84px;
 color: #ff1100;
 text-align: center;
 }
 
 .card2 p{
-    font-size: 1.9em;
+    font-size: 32px;
     color: #000;
     text-align: center;
     }
