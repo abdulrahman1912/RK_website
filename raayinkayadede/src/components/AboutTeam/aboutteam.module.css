@@ -4,13 +4,13 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 4%;
     padding: 0px 30px
 }
 
 .header{
     align-self: flex-start;
-    font-size: 3rem;
+    font-size: 40px;
     color: #ff1100;
     font-weight: 800;
 }
@@ -20,7 +20,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 30px;
+    margin-top:2%;
     flex-direction: row;
     gap: 60px;
 }
@@ -68,7 +68,7 @@ transition: background-color 400ms;
 }
 
 .member .textblock p{
-    font-size: 1.2rem;
+    font-size: 22px;
     color: #fff;
     text-align: center;
     transition: opacity 400ms, font-size 400ms;
@@ -81,7 +81,7 @@ transition: background-color 400ms;
 
 .member:hover .textblock p{
     opacity: 1;
-    font-size:1.2rem ;
+    font-size:22px ;
 }
 
 .member:hover img{
@@ -89,14 +89,14 @@ transform: scale(1.4);
 }
 
 .member .text{
-    font-size: 1.2rem;
+    font-size: 22px;
     /* position: inherit; */
     color: black;
 }
 
 
 .teamnames{
-    margin-top: 20px;
+    margin-top: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,13 +107,13 @@ transform: scale(1.4);
 
 .teamnames .text h3{
 color: #ff1100;
-font-size: 2rem;
+font-size: 30px;
 font-weight: 800;
 }
 
 .teamnames .text p{
-    margin-top: 3px;
-    font-size: 1.5rem;
+    margin-top: 0.5%;
+    font-size: 26px;
 }
 
 .acknowledgement{
@@ -140,6 +140,10 @@ font-weight: 800;
     flex-direction: row;
 }
 
+.acknowledgement{
+    margin-bottom: 28%;
+}
+
 .abouttextcontainer{
     width: 100%;
     height: 100vh;
@@ -148,7 +152,7 @@ font-weight: 800;
     display: flex;
     flex-direction: column;
     position: relative;
-    padding: 30px 40px;
+    padding: 2% 2%;
 }
 
 .head{

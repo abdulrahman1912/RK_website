@@ -1,17 +1,24 @@
-.section{
+.upcoming{
+    margin-top: 8%;
+}
+
+.container{
     width: 100%;
-    margin-top: 100px;
+    display: flex;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    margin-top: 600px;
+    padding: 0% 2%;
 }
 
 .headertext{
-    font-size: 5em;
+font-size: 84px;
 color: #ff1100;
 text-align: center;
 }
+
+
 
 .maincontainer{
     width: 100%;
@@ -20,9 +27,17 @@ text-align: center;
     align-items: flex-start;
     align-content: flex-start;
     flex-direction: row;
-    /* gap: 20px; */
-    padding-top: 35px;
-    margin-bottom: 50px;
+    margin-top: 4%;
+}
+
+.maincontainer2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+    margin-top: 4%;
 }
 
 
@@ -74,7 +89,7 @@ text-align: center;
 
 
 .label h1{
-    font-size: 40px;
+    font-size: 38px;
     color: #fff;
     font-weight: 500;
 }
@@ -92,16 +107,18 @@ text-align: center;
 
 
 .text h2{
-    margin-top: 10px;
+    margin-top: 2%;
     font-size: 30px;
 }
 
+
+
 .text p{
-    margin-top: 5px;
+    
     font-size: 23px;
 }
 
 .text h3{
-    margin-top: 5px;
+    margin-top:1%;
     font-size: 25px;
 }
