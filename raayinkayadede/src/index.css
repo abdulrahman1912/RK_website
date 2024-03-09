@@ -1,9 +1,13 @@
-body{
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
   font-family: 'NunitoSans';
   scroll-behavior: smooth;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,4 +23,8 @@ body{
 @font-face {
   font-family: "NunitoSansItalic";
   src: url(../src/assets/fonts/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf) format('woff2');
+}
+
+.top-100 {
+  top: 30rem;
 }

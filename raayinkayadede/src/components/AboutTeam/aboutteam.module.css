@@ -183,3 +183,52 @@ p.columntext{
     font-size: 2rem;
     /* margin-top: 0px; */
 }
+
+
+@media screen and (max-width: 768px) {
+    .header{
+     align-self: center;
+        font-size: 1.5rem;
+       
+    }
+    .team{
+        padding: 0px 10px;
+        margin-bottom: 70rem;
+    }
+    .profile{
+        flex-direction: column;
+        gap: 10px;
+       
+    }
+    .member{
+        width: 80%;
+    }
+    .teamnames{
+        flex-direction: column;
+        gap: 100px;
+    }
+    .teamnames .text h3{
+        font-size: 1.5rem;
+    }
+    .teamnames .text p{
+        font-size: 1.2rem;
+    }
+    .acknowledgement{
+       
+        height: 100vh;
+    }
+    
+    .abouttextcontainer{
+        padding: 30px 20px;
+    }
+    .head{
+        font-size: 3rem;
+    }
+    .row{
+        flex-direction: column;
+        gap: 20px;
+    }
+    p.columntext{
+        font-size: 1.5rem;
+    }
+  }
