@@ -4,7 +4,7 @@ import Image1 from "../../assets/images/IMG-20230915-WA0009.jpg";
 
 export const HomeSection = () => {
   return (
-    <>
+    <section id="about-us">
       <section className={Style.whoweare}>
         <div className={Style.cardcontainer}>
           <div className={Style.card1}>
@@ -35,7 +35,7 @@ export const HomeSection = () => {
           </div>
         </div>
       </section>
-    </>
+    </section>
   );
 };
 export const HomeSectionMobile = () => {

@@ -10,11 +10,8 @@ border: 0;
 
 .nav{
     width: 100%;
-<<<<<<< HEAD
     padding: 1% 2%;
-=======
     padding: .8em 6em;
->>>>>>> 7aa24806cdcacf579ff61855e502ddcf398bd870
     /* z-index: 1; */
     /* margin-bottom: 1.4em; */
 }
@@ -68,14 +65,11 @@ li a:visited{
 }
 
 .logo h1 {
-<<<<<<< HEAD
 font-size: 24px;
-=======
 font-size: .6em;
 }
 .logo h2 {
 font-size: .6em;
->>>>>>> 7aa24806cdcacf579ff61855e502ddcf398bd870
 }
 
 

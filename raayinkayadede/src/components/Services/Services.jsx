@@ -7,7 +7,7 @@ import Icon4 from "../../assets/icons/pngicons/checklist_dark.png";
 import Illustration from "../../assets/illustrations/undraw_under_construction_-46-pa.svg";
 export const Services = () => {
   return (
-    <>
+    <section id="services">
       <section>
         <h1 className={Style.headertext}>Our Services</h1>
         <div className={Style.cardcontainer}>
@@ -74,12 +74,12 @@ export const Services = () => {
           </div>
         </div>
       </section>
-    </>
+    </section>
   );
 };
 export const ServicesMobile = () => {
   return (
-    <>
+    <section id="services">
       <section className="mt-10">
         <h1 className="text-5xl text-left text-red-500 mb-2">Our Services</h1>
         <div className="flex flex-wrap">
@@ -144,6 +144,6 @@ export const ServicesMobile = () => {
           </div>
         </div>
       </section>
-    </>
+    </section>
   );
 };
