@@ -17,9 +17,7 @@ export const OngoingProjects = () => {
           <div className={Style.maincontainer}>
             <div className={Style.container1}>
               <div className={Style.images}>
-                <img src={Image1} alt="nophoto" className={Style.photo} />
-                <img src={Image2} alt="nophoto" className={Style.photo} />
-              </div>
+                <img src={Image1} alt="nophoto" className={Style.photo} />              </div>
               <div className={Style.label}>
                 <h1>
                   Plot 198 Cadastral Zone B07 <br />
@@ -59,7 +57,6 @@ export const OngoingProjects = () => {
             <div className={Style.container1}>
               <div className={Style.images}>
                 <img src={Image3} alt="nophoto" className={Style.photo} />
-                <img src={Image4} alt="nophoto" className={Style.photo} />
               </div>
               <div className={Style.label}>
                 <h1>
@@ -101,7 +98,6 @@ export const OngoingProjects = () => {
             <div className={Style.container1}>
               <div className={Style.images}>
                 <img src={Image1} alt="nophoto" className={Style.photo} />
-                <img src={Image2} alt="nophoto" className={Style.photo} />
               </div>
               <div className={Style.label}>
                 <h1>
@@ -142,7 +138,6 @@ export const OngoingProjects = () => {
             <div className={Style.container1}>
               <div className={Style.images}>
                 <img src={Image3} alt="nophoto" className={Style.photo} />
-                <img src={Image4} alt="nophoto" className={Style.photo} />
               </div>
               <div className={Style.label}>
                 <h1>

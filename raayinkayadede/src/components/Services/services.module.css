@@ -7,6 +7,9 @@
   flex-wrap: wrap;
 } */
 
+.section{
+  margin-bottom: 40%;
+}
 
 .headertext {
   font-size: 84px;

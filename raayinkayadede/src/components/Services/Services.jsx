@@ -8,7 +8,7 @@ import Illustration from "../../assets/illustrations/undraw_under_construction_-
 export const Services = () => {
   return (
     <section id="services">
-      <section>
+      <section className={Style.section}>
         <h1 className={Style.headertext}>Our Services</h1>
         <div className={Style.cardcontainer}>
           <div className={Style.card1}>

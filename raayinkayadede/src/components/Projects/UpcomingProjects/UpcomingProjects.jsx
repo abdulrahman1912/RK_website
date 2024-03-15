@@ -18,7 +18,7 @@ export const UpcomingProjects = () => {
               <div className={Style.container1}>
                 <div className={Style.images}>
                   <img src={Image1} alt="nophoto" className={Style.photo} />
-                  <img src={Image2} alt="nophoto" className={Style.photo} />
+               
                 </div>
                 <div className={Style.label}>
                   <h1>
@@ -59,7 +59,7 @@ export const UpcomingProjects = () => {
               <div className={Style.container2}>
                 <div className={Style.images}>
                   <img src={Image3} alt="nophoto" className={Style.photo} />
-                  <img src={Image4} alt="nophoto" className={Style.photo} />
+               
                 </div>
                 <div className={Style.label}>
                   <h1>
@@ -102,7 +102,7 @@ export const UpcomingProjects = () => {
               <div className={Style.container1}>
                 <div className={Style.images}>
                   <img src={Image1} alt="nophoto" className={Style.photo} />
-                  <img src={Image2} alt="nophoto" className={Style.photo} />
+              
                 </div>
                 <div className={Style.label}>
                   <h1>
@@ -143,7 +143,7 @@ export const UpcomingProjects = () => {
               <div className={Style.container2}>
                 <div className={Style.images}>
                   <img src={Image3} alt="nophoto" className={Style.photo} />
-                  <img src={Image4} alt="nophoto" className={Style.photo} />
+           
                 </div>
                 <div className={Style.label}>
                   <h1>

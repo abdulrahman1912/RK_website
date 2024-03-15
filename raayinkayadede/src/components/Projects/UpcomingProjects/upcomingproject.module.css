@@ -70,17 +70,19 @@ text-align: center;
 }
 
 .photo{
-    width: 400px;
+    width: 90%;
     height: 400px;
     object-fit: cover;
     border-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
 .label{
     width: 90%;
-    height: 15vh;
+    height: fit-content;
     padding: 10px 0px 0px 10px;
     align-items: flex-start;
     align-content: center;

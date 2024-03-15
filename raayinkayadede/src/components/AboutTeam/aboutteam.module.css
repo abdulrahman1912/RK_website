@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 4%;
+    margin-top: 14%;
     padding: 0px 30px
 }
 
@@ -118,20 +118,20 @@ font-weight: 800;
 
 .acknowledgement{
     width: 100%;
-    height: 70vh;
+    height:100vh;
     margin-top: 50px;
 }
 
 .image{
     object-fit: cover;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     position: absolute;
     z-index: -1;
 }
 
 .bgoverlay{
-    height: 100vh;
+    height: 150vh;
     width: 100%;
     background-color: rgb(0, 0,0,0.6);
     position: absolute;
@@ -141,7 +141,7 @@ font-weight: 800;
 }
 
 .acknowledgement{
-    margin-bottom: 28%;
+    margin-bottom: 26%;
 }
 
 .abouttextcontainer{

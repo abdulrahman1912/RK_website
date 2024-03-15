@@ -76,7 +76,7 @@ text-align: center;
 
 .label{
     width: 90%;
-    height: 15vh;
+    height: fit-content;
     padding: 10px 0px 0px 10px;
     align-items: flex-start;
     align-content: center;
