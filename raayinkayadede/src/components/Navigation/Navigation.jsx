@@ -76,6 +76,7 @@ export const NavMobile = () => {
         <div className="fixed left-0 shadow-4xl right-0 top-[4.0rem] p-5 pt-0  border-b border-b-white/20 bg-white z-10 h-1/4">
 
           <ul className="grid gap-2 place-items-center">
+            
 
             <div className={''}>
               <li>
